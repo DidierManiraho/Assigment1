@@ -1,0 +1,35 @@
+h1{
+    font-size: 1.5em;
+}
+
+ol{
+    counter-reset: item;
+    list-style-type: none;
+    line-height: 2.2;
+    margin-left: -40px;
+}
+ol li{
+    display: block;
+    position: relative;
+}
+
+ol li span{
+    margin-left: 40px;
+    font-family: 'Courier New', Courier, monospace;
+}
+ol li:before{
+    content: counter(item) " ";
+    counter-increment: item;
+    color: #d62828;
+    position: absolute;
+    top: 50%;
+    margin-top: -1em;
+    background: #003049;
+    height: 2em;
+    width: 2em;
+    line-height: 2em;
+    font-weight: 700;
+    text-align: center;
+}
+
+
