@@ -1,3 +1,6 @@
+body{
+    background-color: #fff8f0;
+}
 h1{
     font-size: 2.5em;
     background-color:#eae2b7;
@@ -14,6 +17,9 @@ ol li{
     display: block;
     position: relative;
 }
+ol li:nth-child(odd){
+    background-color: #eee;
+}
 
 ol li span{
     margin-left: 40px;
@@ -21,6 +27,7 @@ ol li span{
     font-size: 25px;
     background-color: #fcbf49;
 }
+
 ol li:before{
     content: counter(item) " ";
     counter-increment: item;
