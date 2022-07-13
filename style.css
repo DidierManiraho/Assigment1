@@ -1,5 +1,7 @@
 h1{
-    font-size: 1.5em;
+    font-size: 2.5em;
+    background-color:#eae2b7;
+    display: inline-block;
 }
 
 ol{
@@ -16,6 +18,8 @@ ol li{
 ol li span{
     margin-left: 40px;
     font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    background-color: #fcbf49;
 }
 ol li:before{
     content: counter(item) " ";
@@ -31,5 +35,6 @@ ol li:before{
     font-weight: 700;
     text-align: center;
 }
+
 
 
